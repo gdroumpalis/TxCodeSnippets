@@ -10,14 +10,11 @@ namespace TxVisualStudioSnippetCreatorandTester
     {
         static void Main(string[] args)
         {
-            Console.ReadKey(); 
+            Console.WriteLine();
+            Console.ReadKey();
         }
 
-        public static void methodname(param)
-        {
-
-        }
     }
-    
+
 
 }
