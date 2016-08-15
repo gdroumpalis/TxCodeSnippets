@@ -12,7 +12,12 @@ namespace TxVisualStudioSnippetCreatorandTester
         {
             Console.ReadKey(); 
         }
-    }
 
+        public static void methodname(param)
+        {
+
+        }
+    }
+    
 
 }
