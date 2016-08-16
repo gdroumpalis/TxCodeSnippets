@@ -12,11 +12,7 @@ namespace TxVisualStudioSnippetCreatorandTester
 
         static void Main(string[] args)
         {
-            bool x = false;
-            if (x)
-            {
-                Console.WriteLine($"{"george"}");
-            }
+
             Console.ReadKey();
         }
 
