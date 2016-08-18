@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Classes Full Inherited Class</Title>
+    <Author>TerminuX</Author>
+    <Shortcut>cfic</Shortcut>
+    <Description>This is a full class snippet</Description>
+    <SnippetTypes>
+      <!--<SnippetType>SurroundsWith</SnippetType>-->
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>nameclass</ID>
+        <Default>nameclass</Default>
+      </Literal>
+      <Literal>
+        <ID>param</ID>
+        <Default>param</Default>
+      </Literal>
+      <Literal>
+        <ID>inherited</ID>
+        <Default>inherited</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Delimiter="$">
+      <![CDATA[class $nameclass$ : $inherited$
+      {
+        public $nameclass$($param$)
+        {
+          $selected$ $end$
+        }
+        
+        ~$nameclass$()
+        {
+          
+        }
+      }]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

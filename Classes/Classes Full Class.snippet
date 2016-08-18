@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Classes Full Class</Title>
+    <Author>TerminuX</Author>
+    <Shortcut>cfc</Shortcut>
+    <Description>This is a full class snippet</Description>
+    <SnippetTypes>
+      <!--<SnippetType>SurroundsWith</SnippetType>-->
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>nameclass</ID>
+        <Default>nameclass</Default>
+      </Literal>
+      <Literal>
+        <ID>param</ID>
+        <Default>param</Default>
+      </Literal>
+
+    </Declarations>
+    <Code Language="csharp" Delimiter="$">
+      <![CDATA[class $nameclass$
+      {
+        public $nameclass$($param$)
+        {
+          $selected$ $end$
+        }
+        
+        ~$nameclass$()
+        {
+          
+        }
+      }]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
