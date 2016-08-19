@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>Variables Modifier Int</Title>
+    <Title>Variables Modifier Initialization String</Title>
     <Author>TerminuX</Author>
-    <Shortcut>vmi</Shortcut>
+    <Shortcut>vmsi</Shortcut>
     <Description>Variable Snippet with modifier</Description>
     <SnippetTypes>
       <!--<SnippetType>SurroundsWith</SnippetType>-->
@@ -20,9 +20,13 @@
         <ID>name</ID>
         <Default>name</Default>
       </Literal>
+      <Literal>
+        <ID>string</ID>
+        <Default>string</Default>
+      </Literal>
     </Declarations>
     <Code Language="csharp" Delimiter="$">
-      <![CDATA[$Modifier$ int $name$;$end$]]>
+      <![CDATA[$Modifier$ string $name$ = "$string$";$end$]]>
     </Code>
   </Snippet>
 </CodeSnippet>
