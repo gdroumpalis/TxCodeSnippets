@@ -9,12 +9,14 @@ namespace TxVisualStudioSnippetCreatorandTester
 
     class Program
     {
+        
         static void Main(string[] args)
         {
+            Console.WriteLine(methodname());
             Console.ReadKey();
 
         }
-
+        public static double methodname() => 5;
     }
 
 
