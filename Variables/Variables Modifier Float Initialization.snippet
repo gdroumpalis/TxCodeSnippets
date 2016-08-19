@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>Variables Modifier Int</Title>
+    <Title>Variables Modifier Float Initialization</Title>
     <Author>TerminuX</Author>
-    <Shortcut>vmi</Shortcut>
-    <Description>Variable Snippet fot int with modifier</Description>
+    <Shortcut>vmfi</Shortcut>
+    <Description>Variable Snippet for float with modifier and Initialization</Description>
     <SnippetTypes>
       <!--<SnippetType>SurroundsWith</SnippetType>-->
       <SnippetType>Expansion</SnippetType>
@@ -20,9 +20,13 @@
         <ID>name</ID>
         <Default>name</Default>
       </Literal>
+      <Literal>
+        <ID>number</ID>
+        <Default>number</Default>
+      </Literal>
     </Declarations>
     <Code Language="csharp" Delimiter="$">
-      <![CDATA[$Modifier$ int $name$;$end$]]>
+      <![CDATA[$Modifier$ float $name$ = $number$f;$end$]]>
     </Code>
   </Snippet>
 </CodeSnippet>

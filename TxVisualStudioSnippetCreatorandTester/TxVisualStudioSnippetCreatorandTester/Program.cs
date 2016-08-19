@@ -11,6 +11,7 @@ namespace TxVisualStudioSnippetCreatorandTester
     {
         static void Main(string[] args)
         {
+
             Console.ReadKey();
 
         }
