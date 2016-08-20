@@ -14,7 +14,12 @@ namespace TxVisualStudioSnippetCreatorandTester
         {
             Console.ReadKey();
         }
-    }
+        ~Program(int x)
+      {
+
+        }
+
+}
 
 
 

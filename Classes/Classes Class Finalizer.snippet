@@ -1,0 +1,27 @@
+﻿<CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Classes Class Finalizer</Title>
+    <Author>TerminuX</Author>
+    <Shortcut>ccfn</Shortcut>
+    <Description>Finalizer for a Class</Description>
+    <SnippetTypes>
+      <!--<SnippetType>SurroundsWith</SnippetType>-->
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>classname</ID>
+        <Function>ClassName()</Function>
+        <Default>classname</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Delimiter="$">
+      <![CDATA[~$classname$()
+      {
+        $end$
+        }]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

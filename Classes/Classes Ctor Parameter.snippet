@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Classes Ctor Parameter</Title>
+    <Author>Terminux</Author>
+    <Shortcut>cctorp</Shortcut>
+    <Description>Classes Constructor with Parameters</Description>
+    <SnippetTypes>
+      <!--<SnippetType>SurroundsWith</SnippetType>-->
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>classname</ID>
+        <Function>ClassName()</Function>
+        <Default>ClassName</Default>
+      </Literal>
+      <Literal>
+        <ID>param</ID>
+        <Default>param</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Delimiter="$">
+      <![CDATA[public $classname$($param$)
+      {
+        $end$
+        }]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
