@@ -9,12 +9,10 @@ namespace TxVisualStudioSnippetCreatorandTester
 
     class Program
     {
-        public static float ypsos = 5.7f;
 
         static void Main(string[] args)
         {
             Console.ReadKey();
-            //TODO fix vmsi for string and integer
         }
     }
 
