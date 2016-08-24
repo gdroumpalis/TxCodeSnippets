@@ -10,13 +10,20 @@ namespace TxVisualStudioSnippetCreatorandTester
     class Program
     {
 
+
         static void Main(string[] args)
         {
-
+            Console.WriteLine(methodname(5,6)); 
             Console.ReadKey();
         }
-
-
+        public static string Test()
+        {
+            return "tetststs";
+        }
+        public static string methodname(int x, int y)
+        {
+            return $"{x}+{y}";
+        }
 
     }
 
