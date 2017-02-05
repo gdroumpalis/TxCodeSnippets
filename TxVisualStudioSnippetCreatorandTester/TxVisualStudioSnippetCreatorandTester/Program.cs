@@ -16,9 +16,9 @@ namespace TxVisualStudioSnippetCreatorandTester
         static readonly string dest = @"C:\Users\TerminuX\Documents\Visual Studio 2015\Code Snippets\Visual C#\My Code Snippets";
         static void Main(string[] args)
         {
+            CleanSnippetsFolder(dest);
             DirectoryCopy(source, dest, true);
 
-            Console.ReadKey();
         }
 
         private static void DirectoryCopy(string sourceDirName, string destDirName, bool copySubDirs)
@@ -56,6 +56,26 @@ namespace TxVisualStudioSnippetCreatorandTester
                     string temppath = Path.Combine(destDirName, subdir.Name);
                     DirectoryCopy(subdir.FullName, temppath, copySubDirs);
                 }
+            }
+
+        }
+
+
+        private static void CleanSnippetsFolder(string sourceDirName)
+        {
+            // Get the subdirectories for the specified directory.
+            DirectoryInfo dir = new DirectoryInfo(sourceDirName);
+
+            if (!dir.Exists)
+            {
+                throw new DirectoryNotFoundException(
+                    "Source directory does not exist or could not be found: "
+                    + sourceDirName);
+            }
+
+            foreach (var it in Directory.GetDirectories(sourceDirName))
+            {
+                Directory.Delete(it, true);
             }
 
         }
