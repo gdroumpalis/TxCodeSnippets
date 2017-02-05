@@ -1,2 +1,0 @@
-To install those kind of snippets you simply copy and paste all the snippets in this folder to this path
-C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC#\Snippets\1033\Visual C#
