@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Variables Modifier Int Initialization</Title>
+    <Author>TerminuX</Author>
+    <Shortcut>vmii</Shortcut>
+    <Description>Variable Snippet for int with modifier and initiazation</Description>
+    <SnippetTypes>
+      <!--<SnippetType>SurroundsWith</SnippetType>-->
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>Modifier</ID>
+        <Default>private</Default>
+      </Literal>
+      <Literal>
+        <ID>name</ID>
+        <Default>name</Default>
+      </Literal>
+      <Literal>
+        <ID>number</ID>
+        <Default>number</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Delimiter="$">
+      <![CDATA[$Modifier$ int $name$ = $number$;$end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

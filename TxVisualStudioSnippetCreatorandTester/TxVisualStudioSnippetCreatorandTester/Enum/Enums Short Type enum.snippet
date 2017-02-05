@@ -1,17 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
       </SnippetTypes>
-      <Title>Classes Class Method</Title>
-      <Author>George</Author>
+      <Title>ShortEnum</Title>
+      <Author>TerminuX</Author>
       <Description>
       </Description>
       <HelpUrl>
       </HelpUrl>
-      <Shortcut>ccm</Shortcut>
+      <Shortcut>ese</Shortcut>
     </Header>
     <Snippet>
       <Declarations>
@@ -23,31 +23,32 @@
           </Function>
         </Literal>
         <Literal Editable="true">
-          <ID>void</ID>
-          <ToolTip>void</ToolTip>
-          <Default>void</Default>
+          <ID>Name</ID>
+          <ToolTip>Name</ToolTip>
+          <Default>Name</Default>
           <Function>
           </Function>
         </Literal>
         <Literal Editable="true">
-          <ID>methodname</ID>
-          <ToolTip>methodname</ToolTip>
-          <Default>methodname</Default>
+          <ID>item</ID>
+          <ToolTip>item</ToolTip>
+          <Default>item</Default>
           <Function>
           </Function>
         </Literal>
         <Literal Editable="true">
-          <ID>param</ID>
-          <ToolTip>param</ToolTip>
-          <Default>param</Default>
+          <ID>value</ID>
+          <ToolTip>value</ToolTip>
+          <Default>value</Default>
           <Function>
           </Function>
         </Literal>
+        <Literal>
+        <ID>type</ID>>
+        <Default>type</Default>
+        </Literal>>
       </Declarations>
-      <Code Language="csharp" Delimiter="$"><![CDATA[$public$ $void$ $methodname$($param$)
-{
-    $end$
-}]]></Code>
+      <Code Language="csharp" Delimiter="$"><![CDATA[$public$ enum $Name$ : $type$ { $item$ = $value$, $end$ }; ]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>

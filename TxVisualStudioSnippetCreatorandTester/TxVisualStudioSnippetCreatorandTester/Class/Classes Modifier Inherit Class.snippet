@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Classes Modifier Inherit Class</Title>
+    <Author>TerminuX</Author>
+    <Shortcut>cmic</Shortcut>
+    <Description>A Class with modifier which inherits another class</Description>
+    <SnippetTypes>
+      <!--<SnippetType>SurroundsWith</SnippetType>-->
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>modifier</ID>
+        <Default>private</Default>
+      </Literal>
+      <Literal>
+        <ID>ChildClass</ID>
+        <Default>ChildClass</Default>
+      </Literal>
+      <Literal>
+        <ID>ParentClass</ID>
+        <Default>ParentClass</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp">
+      <![CDATA[$modifier$ class $ChildClass$ : $ParentClass$
+      {
+        $end$
+      }]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

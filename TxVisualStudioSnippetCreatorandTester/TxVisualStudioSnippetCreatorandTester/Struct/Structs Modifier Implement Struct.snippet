@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Structs Modifier Implement Struct</Title>
+    <Author>TerminuX</Author>
+    <Shortcut>smis</Shortcut>
+    <Description>A struct with a modifier wich implements an interface</Description>
+    <SnippetTypes>
+      <!--<SnippetType>SurroundsWith</SnippetType>-->
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>modifier</ID>
+        <Default>private</Default>
+      </Literal>
+      <Literal>
+        <ID>name</ID>
+        <Default>StructName</Default>
+      </Literal>
+      <Literal>
+        <ID>interface</ID>
+        <Default>interface</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp">
+      <![CDATA[$modifier$ struct $name$ : I$interface$
+      {
+        $end$
+      }]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

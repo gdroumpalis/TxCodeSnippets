@@ -1,0 +1,2 @@
+To install the snippets you simply copy and paste the folders with the
+snippets in your folder MyCodeSnippets

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>Properties Prop with no Field</Title>
+      <Author>TerminuX</Author>
+      <Description>
+      A property with no Field
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>ppropf</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>int</ID>
+          <ToolTip>int</ToolTip>
+          <Default>int</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>Name</ID>
+          <ToolTip>Name</ToolTip>
+          <Default>Name</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>varname</ID>
+          <ToolTip>varname</ToolTip>
+          <Default>varname</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp" Delimiter="$"><![CDATA[public $int$ $Name$
+{
+    get
+    {
+        return $varname$;
+    }
+    set
+    {
+        this.$varname$ = value;
+    }
+} $end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

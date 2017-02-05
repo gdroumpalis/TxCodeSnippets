@@ -48,7 +48,94 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Class\Classes Class Finalizer.snippet" />
+    <None Include="Class\Classes Class Parameters.snippet" />
+    <None Include="Class\Classes Ctor Parameter.snippet" />
+    <None Include="Class\Classes Full Class.snippet" />
+    <None Include="Class\Classes Full Inherited Class.snippet" />
+    <None Include="Class\Classes Inherit Class.snippet" />
+    <None Include="Class\Classes Modifier Class.snippet" />
+    <None Include="Class\Classes Modifier Inherit Class.snippet" />
+    <None Include="Class\Classes Static Class Modifier.snippet" />
+    <None Include="Enum\Enums Full enum.snippet" />
+    <None Include="Enum\Enums Full Type enum.snippet" />
+    <None Include="Enum\Enums Short Enum.snippet" />
+    <None Include="Enum\Enums Short Type enum.snippet" />
+    <None Include="Method\Method String Method.snippet" />
+    <None Include="Method\Methods Customtype Method.snippet" />
+    <None Include="Method\Methods Double.snippet" />
+    <None Include="Method\Methods Float Method.snippet" />
+    <None Include="Method\Methods Int Method.snippet" />
+    <None Include="Method\Methods Static Customtype Method.snippet" />
+    <None Include="Method\Methods Static Double Method.snippet" />
+    <None Include="Method\Methods Static Float Method.snippet" />
+    <None Include="Method\Methods Static Int Method.snippet" />
+    <None Include="Method\Methods Static String Method.snippet" />
+    <None Include="Method\Methods Static Void Main.snippet" />
+    <None Include="Method\Methods Void Method.snippet" />
+    <None Include="Property\Properties Prop with no Field.snippet" />
+    <None Include="Struct\Structs Modifier Implement Struct.snippet" />
+    <None Include="Struct\Structs Modifier Struct.snippet" />
+    <None Include="Struct\Structs Struct Ctor%28requires parameters%29.snippet" />
+    <None Include="Surround\Curlies.snippet" />
+    <None Include="Surround\xcomblock.snippet" />
+    <None Include="Surround\xcommethod.snippet" />
+    <None Include="Surround\xdo.snippet" />
+    <None Include="Surround\xenum.snippet" />
+    <None Include="Surround\xif.snippet" />
+    <None Include="Surround\xmclass.snippet" />
+    <None Include="Surround\xmethod.snippet" />
+    <None Include="Surround\xprop.snippet" />
+    <None Include="Surround\xsim.snippet" />
+    <None Include="Surround\xsmethod.snippet" />
+    <None Include="Surround\xsvm.snippet" />
+    <None Include="Surround\xwhile.snippet" />
+    <None Include="Utility\Utilities Comment Block.snippet" />
+    <None Include="Utility\Utilities Comment Line.snippet" />
+    <None Include="Utility\Utilities Comments TODO.snippet" />
+    <None Include="Utility\Utilities Console ReadKey.snippet" />
+    <None Include="Utility\Utilities ConsoleWrite.snippet" />
+    <None Include="Utility\Utilities ConsoleWriteLine.snippet" />
+    <None Include="Utility\Utilities Dollar String.snippet" />
+    <None Include="Utility\Utilities New Object Parameters.snippet" />
+    <None Include="Utility\Utilities New Object.snippet" />
+    <None Include="Utility\Utilities System Args.snippet" />
+    <None Include="Utility\Utilities Var New Object Parameters.snippet" />
+    <None Include="Utility\Utilities Var New Object.snippet" />
+    <None Include="Variable\Variables Modifier Double Initialization.snippet" />
+    <None Include="Variable\Variables Modifier Double.snippet" />
+    <None Include="Variable\Variables Modifier Float Initialization.snippet" />
+    <None Include="Variable\Variables Modifier Float.snippet" />
+    <None Include="Variable\Variables Modifier Int Initialization.snippet" />
+    <None Include="Variable\Variables Modifier Int.snippet" />
+    <None Include="Variable\Variables Modifier String Initialization.snippet" />
+    <None Include="Variable\Variables Modifier String.snippet" />
+    <None Include="Variable\Variables Modifier Var Initialization.snippet" />
+    <None Include="Variable\Variables Modifier Var.snippet" />
+    <None Include="Variable\Variables Static Modifier Double Initialization.snippet" />
+    <None Include="Variable\Variables Static Modifier Double.snippet" />
+    <None Include="Variable\Variables Static Modifier Float Initialization.snippet" />
+    <None Include="Variable\Variables Static Modifier Float.snippet" />
+    <None Include="Variable\Variables Static Modifier Int Initialization.snippet" />
+    <None Include="Variable\Variables Static Modifier Int.snippet" />
+    <None Include="Variable\Variables Static Modifier String Initialization.snippet" />
+    <None Include="Variable\Variables Static Modifier String.snippet" />
+    <None Include="Variable\Variables Static Modifier Var Initialization.snippet" />
+    <None Include="Variable\Variables Static Modifier Var.snippet" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Class\HowToInstall.txt" />
+    <Content Include="Enum\HowToInstall.txt" />
+    <Content Include="Method\HowToInstall.txt" />
+    <Content Include="NameSpace\HowToInstall.txt" />
+    <Content Include="Property\HowToInstall.txt" />
+    <Content Include="Struct\HowToInstall.txt" />
+    <Content Include="Surround\HowToInstal.txt" />
+    <Content Include="Surround\XSnippets README.txt" />
+    <Content Include="Utility\HowToInstall.txt" />
+    <Content Include="Variable\HowToInstall.txt" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

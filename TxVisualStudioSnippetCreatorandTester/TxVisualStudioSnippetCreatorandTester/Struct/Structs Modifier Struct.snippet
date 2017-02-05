@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Structs Modifier Struct</Title>
+    <Author>TerminuX</Author>
+    <Shortcut>sms</Shortcut>
+    <Description>A struct with modifier</Description>
+    <SnippetTypes>
+      <!--<SnippetType>SurroundsWith</SnippetType>-->
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>name</ID>
+        <Default>name</Default>
+      </Literal>
+      <Literal>
+        <ID>modifier</ID>
+        <Default>private</Default>
+      </Literal>
+      
+    </Declarations>
+    <Code Language="csharp">
+      <![CDATA[$modifier$ struct $name$
+      {
+        $end$
+      }]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

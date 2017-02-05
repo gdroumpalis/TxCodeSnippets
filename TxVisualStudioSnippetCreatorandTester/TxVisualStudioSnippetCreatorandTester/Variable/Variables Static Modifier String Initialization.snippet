@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Variables Modifier Static String Initialization</Title>
+    <Author>TerminuX</Author>
+    <Shortcut>vmsstri</Shortcut>
+    <Description>Variable Snippet for static string with modifier and Initialization</Description>
+    <SnippetTypes>
+      <!--<SnippetType>SurroundsWith</SnippetType>-->
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>Modifier</ID>
+        <Default>private</Default>
+      </Literal>
+      <Literal>
+        <ID>name</ID>
+        <Default>name</Default>
+      </Literal>
+      <Literal>
+        <ID>string</ID>
+        <Default>string</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Delimiter="$">
+      <![CDATA[$Modifier$ static string $name$ = "$string$";$end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
