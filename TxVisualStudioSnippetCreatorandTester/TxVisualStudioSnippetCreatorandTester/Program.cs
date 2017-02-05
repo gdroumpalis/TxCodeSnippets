@@ -75,7 +75,14 @@ namespace TxVisualStudioSnippetCreatorandTester
 
             foreach (var it in Directory.GetDirectories(sourceDirName))
             {
-                Directory.Delete(it, true);
+                try
+                {
+                    Directory.Delete(it, true);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
             }
 
         }
@@ -83,5 +90,9 @@ namespace TxVisualStudioSnippetCreatorandTester
     }
 }
 
+namespace Test
+{
+
+}
 
 
