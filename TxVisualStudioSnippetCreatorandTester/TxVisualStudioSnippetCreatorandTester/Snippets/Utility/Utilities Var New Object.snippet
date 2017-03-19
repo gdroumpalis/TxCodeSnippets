@@ -5,13 +5,13 @@
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
       </SnippetTypes>
-      <Title>Utilities Var New Object</Title>
+      <Title>Utilities Var New Object Parameters</Title>
       <Author>George</Author>
       <Description>
       </Description>
       <HelpUrl>
       </HelpUrl>
-      <Shortcut>uvno</Shortcut>
+      <Shortcut>uvnew</Shortcut>
     </Header>
     <Snippet>
       <Declarations>
@@ -29,8 +29,12 @@
           <Function>
           </Function>
         </Literal>
+        <Literal>
+        <ID>param</ID>
+        <Default></Default>
+        </Literal>
       </Declarations>
-      <Code Language="vb" Delimiter="$"><![CDATA[var $objectname$ = new $Class$(); $end$]]></Code>
+      <Code Language="vb" Delimiter="$"><![CDATA[var $objectname$ = new $Class$($param$); $end$]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
