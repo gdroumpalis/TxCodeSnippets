@@ -106,7 +106,6 @@
     <None Include="Snippets\Utility\Utilities ConsoleWrite.snippet" />
     <None Include="Snippets\Utility\Utilities ConsoleWriteLine.snippet" />
     <None Include="Snippets\Utility\Utilities Dollar String.snippet" />
-    <None Include="Snippets\Utility\Utilities New Object Parameters.snippet" />
     <None Include="Snippets\Utility\Utilities New Object.snippet" />
     <None Include="Snippets\Utility\Utilities System Args.snippet" />
     <None Include="Snippets\Utility\Utilities Var New Object Parameters.snippet" />

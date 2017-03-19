@@ -12,7 +12,6 @@ namespace TxVisualStudioSnippetCreatorandTester
     class Program
     {
 
-        
 
         static readonly string source = @"C:\Users\TerminuX\Desktop\TxCodeSnippets\TxVisualStudioSnippetCreatorandTester\TxVisualStudioSnippetCreatorandTester\Snippets";
         //static readonly string dest = @"C:\Users\TerminuX\Documents\Visual Studio 2015\Code Snippets\Visual C#\My Code Snippets";
@@ -23,12 +22,10 @@ namespace TxVisualStudioSnippetCreatorandTester
             DirectoryCopy(source, dest, true);
 
         }
-        
         private static void DirectoryCopy(string sourceDirName, string destDirName, bool copySubDirs)
         {
             // Get the subdirectories for the specified directory.
             DirectoryInfo dir = new DirectoryInfo(sourceDirName);
-
             if (!dir.Exists)
             {
                 throw new DirectoryNotFoundException(
