@@ -69,22 +69,19 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Snippets\Class\Classes Class Finalizer.snippet" />
-    <None Include="Snippets\Class\Classes Class Parameters.snippet" />
     <None Include="Snippets\Class\Classes Ctor Parameter.snippet" />
     <None Include="Snippets\Class\Classes Full Class.snippet" />
     <None Include="Snippets\Class\Classes Full Inherited Class.snippet" />
     <None Include="Snippets\Class\Classes Inherit Class.snippet" />
-    <None Include="Snippets\Class\Classes Modifier Class.snippet" />
+    <None Include="Snippets\Class\Classes Class.snippet" />
     <None Include="Snippets\Class\Classes Modifier Inherit Class.snippet" />
-    <None Include="Snippets\Class\Classes Static Class Modifier.snippet" />
+    <None Include="Snippets\Class\Classes Static Class.snippet" />
     <None Include="Snippets\Enum\Enums Full enum.snippet" />
     <None Include="Snippets\Enum\Enums Full Type enum.snippet" />
     <None Include="Snippets\Enum\Enums Short Enum.snippet" />
     <None Include="Snippets\Enum\Enums Short Type enum.snippet" />
     <None Include="Snippets\Method\Methods Static Object Method.snippet" />
     <None Include="Snippets\Method\Methods Object Method.snippet" />
-    <None Include="Snippets\Method\Methods Static Void Main.snippet" />
-    <None Include="Snippets\Method\Methods Void Method.snippet" />
     <None Include="Snippets\Property\Properties Prop with no Field.snippet" />
     <None Include="Snippets\Struct\Structs Modifier Implement Struct.snippet" />
     <None Include="Snippets\Struct\Structs Modifier Struct.snippet" />
@@ -114,38 +111,17 @@
     <None Include="Snippets\Utility\Utilities System Args.snippet" />
     <None Include="Snippets\Utility\Utilities Var New Object Parameters.snippet" />
     <None Include="Snippets\Utility\Utilities Var New Object.snippet" />
-    <None Include="Snippets\Variable\Variables Modifier Double Initialization.snippet" />
-    <None Include="Snippets\Variable\Variables Modifier Double.snippet" />
-    <None Include="Snippets\Variable\Variables Modifier Float Initialization.snippet" />
-    <None Include="Snippets\Variable\Variables Modifier Float.snippet" />
-    <None Include="Snippets\Variable\Variables Modifier Int Initialization.snippet" />
-    <None Include="Snippets\Variable\Variables Modifier Int.snippet" />
-    <None Include="Snippets\Variable\Variables Modifier String Initialization.snippet" />
-    <None Include="Snippets\Variable\Variables Modifier String.snippet" />
-    <None Include="Snippets\Variable\Variables Modifier Var Initialization.snippet" />
+    <None Include="Snippets\Variable\Variables Modifier Var Init.snippet" />
     <None Include="Snippets\Variable\Variables Modifier Var.snippet" />
-    <None Include="Snippets\Variable\Variables Static Modifier Double Initialization.snippet" />
-    <None Include="Snippets\Variable\Variables Static Modifier Double.snippet" />
-    <None Include="Snippets\Variable\Variables Static Modifier Float Initialization.snippet" />
-    <None Include="Snippets\Variable\Variables Static Modifier Float.snippet" />
-    <None Include="Snippets\Variable\Variables Static Modifier Int Initialization.snippet" />
-    <None Include="Snippets\Variable\Variables Static Modifier Int.snippet" />
-    <None Include="Snippets\Variable\Variables Static Modifier String Initialization.snippet" />
-    <None Include="Snippets\Variable\Variables Static Modifier String.snippet" />
-    <None Include="Snippets\Variable\Variables Static Modifier Var Initialization.snippet" />
     <None Include="Snippets\Variable\Variables Static Modifier Var.snippet" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Snippets\Class\HowToInstall.txt" />
-    <Content Include="Snippets\Enum\HowToInstall.txt" />
-    <Content Include="Snippets\Method\HowToInstall.txt" />
     <Content Include="Snippets\NameSpace\HowToInstall.txt" />
-    <Content Include="Snippets\Property\HowToInstall.txt" />
-    <Content Include="Snippets\Struct\HowToInstall.txt" />
+    <Content Include="Snippets\Property\Properties Full Property.xml" />
+    <Content Include="Snippets\Variable\Variables Static Modifier Var Init.xml" />
     <Content Include="Surround\HowToInstal.txt" />
     <Content Include="Surround\XSnippets README.txt" />
-    <Content Include="Snippets\Utility\HowToInstall.txt" />
-    <Content Include="Snippets\Variable\HowToInstall.txt" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">

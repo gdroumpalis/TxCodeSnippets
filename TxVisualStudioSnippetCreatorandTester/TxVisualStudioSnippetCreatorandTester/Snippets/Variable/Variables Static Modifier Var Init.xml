@@ -3,7 +3,7 @@
   <Header>
     <Title>Variables Modifier Var Initialization</Title>
     <Author>TerminuX</Author>
-    <Shortcut>vmvi</Shortcut>
+    <Shortcut>vsvi</Shortcut>
     <Description>Variable Snippet fot var with modifier and Initialization</Description>
     <SnippetTypes>
       <!--<SnippetType>SurroundsWith</SnippetType>-->
