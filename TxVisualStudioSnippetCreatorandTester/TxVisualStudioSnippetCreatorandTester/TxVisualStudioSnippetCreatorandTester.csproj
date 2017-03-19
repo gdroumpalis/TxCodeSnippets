@@ -116,8 +116,8 @@
   <ItemGroup>
     <Content Include="Snippets\Class\HowToInstall.txt" />
     <Content Include="Snippets\NameSpace\HowToInstall.txt" />
-    <Content Include="Snippets\Property\Properties Full Property.xml" />
-    <Content Include="Snippets\Variable\Variables Static Modifier Var Init.xml" />
+    <None Include="Snippets\Property\Properties Full Property.snippet" />
+    <None Include="Snippets\Variable\Variables Static Modifier Var Init.snippet" />
     <Content Include="Surround\HowToInstal.txt" />
     <Content Include="Surround\XSnippets README.txt" />
   </ItemGroup>
