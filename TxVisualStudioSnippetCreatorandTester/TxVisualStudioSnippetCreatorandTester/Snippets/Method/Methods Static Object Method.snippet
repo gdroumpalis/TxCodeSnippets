@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>Methods Object Method</Title>
+    <Title>Methods Static General Method</Title>
     <Author>TerminuX</Author>
-    <Shortcut>mcm</Shortcut>
+    <Shortcut>msm</Shortcut>
     <Description>A method that takes as data type a class type</Description>
     <SnippetTypes>
       <!--<SnippetType>SurroundsWith</SnippetType>-->
@@ -18,11 +18,11 @@
       </Literal>
       <Literal>
         <ID>customtype</ID>
-        <Default>customtype</Default>
+        <Default>Type</Default>
       </Literal>
       <Literal>
         <ID>methodname</ID>
-        <Default>methodname</Default>
+        <Default>Name</Default>
       </Literal>
       <Literal>
         <ID>param</ID>
@@ -30,7 +30,7 @@
       </Literal>
     </Declarations>
     <Code Language="csharp" Delimiter="$">
-      <![CDATA[$public$ $customtype$ $methodname$($param$)
+      <![CDATA[$public$ static $customtype$ $methodname$($param$)
       {
         return $end$;
       }]]>

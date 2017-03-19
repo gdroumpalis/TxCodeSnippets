@@ -21,7 +21,7 @@ namespace TxVisualStudioSnippetCreatorandTester
             DirectoryCopy(source, dest, true);
 
         }
-
+        
         private static void DirectoryCopy(string sourceDirName, string destDirName, bool copySubDirs)
         {
             // Get the subdirectories for the specified directory.

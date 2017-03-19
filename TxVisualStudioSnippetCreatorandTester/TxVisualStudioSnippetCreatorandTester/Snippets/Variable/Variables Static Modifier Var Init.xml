@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>Variables Modifier Static Int Initialization</Title>
+    <Title>Variables Modifier Var Initialization</Title>
     <Author>TerminuX</Author>
-    <Shortcut>vmsii</Shortcut>
-    <Description>Variable Snippet for static int with modifier and Initialization</Description>
+    <Shortcut>vmvi</Shortcut>
+    <Description>Variable Snippet fot var with modifier and Initialization</Description>
     <SnippetTypes>
       <!--<SnippetType>SurroundsWith</SnippetType>-->
       <SnippetType>Expansion</SnippetType>
@@ -21,12 +21,16 @@
         <Default>name</Default>
       </Literal>
       <Literal>
+        <ID>variable</ID>
+        <Default>var</Default>
+      </Literal>
+      <Literal>
         <ID>number</ID>
-        <Default>number</Default>
+        <Default>value</Default>
       </Literal>
     </Declarations>
     <Code Language="csharp" Delimiter="$">
-      <![CDATA[$Modifier$ static int $name$ = $number$;$end$]]>
+      <![CDATA[$Modifier$ static $variable$ $name$ = $number$;$end$]]>
     </Code>
   </Snippet>
 </CodeSnippet>
