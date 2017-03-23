@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Methods Static General Method</Title>
+    <Author>TerminuX</Author>
+    <Shortcut>mam</Shortcut>
+    <Description>A method that takes as data type a class type</Description>
+    <SnippetTypes>
+      <!--<SnippetType>SurroundsWith</SnippetType>-->
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>public</ID>
+        <Default>public</Default>
+      </Literal>
+      <Literal>
+        <ID>customtype</ID>
+        <Default>Type</Default>
+      </Literal>
+      <Literal>
+        <ID>methodname</ID>
+        <Default>Name</Default>
+      </Literal>
+      <Literal>
+        <ID>param</ID>
+        <Default></Default>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Delimiter="$">
+      <![CDATA[$public$ abstruct $customtype$ $methodname$($param$)
+      {
+        return $end$;
+      }]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
