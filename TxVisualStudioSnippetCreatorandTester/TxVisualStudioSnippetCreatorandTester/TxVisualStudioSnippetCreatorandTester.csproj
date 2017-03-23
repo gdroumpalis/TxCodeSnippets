@@ -80,6 +80,7 @@
     <None Include="Snippets\Enum\Enums Full Type enum.snippet" />
     <None Include="Snippets\Enum\Enums Short Enum.snippet" />
     <None Include="Snippets\Enum\Enums Short Type enum.snippet" />
+    <None Include="Snippets\Method\Methods Abstruct Object Method.snippet" />
     <None Include="Snippets\Method\Methods Static Object Method.snippet" />
     <None Include="Snippets\Method\Methods Object Method.snippet" />
     <None Include="Snippets\Property\Properties Prop with no Field.snippet" />

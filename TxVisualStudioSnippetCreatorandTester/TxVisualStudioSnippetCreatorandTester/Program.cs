@@ -15,7 +15,7 @@ namespace TxVisualStudioSnippetCreatorandTester
 
         static readonly string source = @"C:\Users\TerminuX\Desktop\TxCodeSnippets\TxVisualStudioSnippetCreatorandTester\TxVisualStudioSnippetCreatorandTester\Snippets";
         //static readonly string dest = @"C:\Users\TerminuX\Documents\Visual Studio 2015\Code Snippets\Visual C#\My Code Snippets";
-        static readonly string dest = @"C:\Users\TerminuX\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets";
+        static readonly string dest = @"C:\Users\TerminuX\Documents\Visual Studio 2015\Code Snippets\Visual C#\My Code Snippets";
         static void Main(string[] args)
         {
             CleanSnippetsFolder(dest);
